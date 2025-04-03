@@ -295,3 +295,66 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+
+function runTest(index) {
+    const testCase = testCases[index];
+    const curlCommand = testCase.curl_command;
+    
+    // Show loading state
+    document.getElementById(`test-result-${index}`).innerHTML = 'Running test...';
+    
+    fetch('/execute-curl', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ curl_command: curlCommand }),
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (data.status === 'error') {
+            document.getElementById(`test-result-${index}`).innerHTML = `Error: ${data.error}`;
+        } else {
+            let responseDisplay = '';
+            if (typeof data.response === 'object') {
+                responseDisplay = `<pre>${JSON.stringify(data.response, null, 2)}</pre>`;
+            } else {
+                responseDisplay = `<pre>${data.response}</pre>`;
+            }
+            
+            let requestBodyDisplay = '';
+            if (data.request_body) {
+                if (typeof data.request_body === 'object') {
+                    requestBodyDisplay = `<div class="request-body">
+                        <h4>Request Body:</h4>
+                        <pre>${JSON.stringify(data.request_body, null, 2)}</pre>
+                    </div>`;
+                } else {
+                    requestBodyDisplay = `<div class="request-body">
+                        <h4>Request Body:</h4>
+                        <pre>${data.request_body}</pre>
+                    </div>`;
+                }
+            }
+            
+            document.getElementById(`test-result-${index}`).innerHTML = `
+                <div>Status Code: ${data.status_code}</div>
+                ${requestBodyDisplay}
+                <div>
+                    <h4>Response:</h4>
+                    ${responseDisplay}
+                </div>
+            `;
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        document.getElementById(`test-result-${index}`).innerHTML = `Error: ${error.message}`;
+    });
+}
