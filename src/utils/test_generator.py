@@ -1,5 +1,5 @@
-from utils.ai_providers.base import AIProvider
-from utils.ai_providers.huggingface_provider import HuggingFaceProvider
+from src.utils.ai_providers.base import AIProvider
+from src.utils.ai_providers.huggingface_provider import HuggingFaceProvider
 from pydantic import BaseModel, Field
 import logging
 from typing import  List, Dict, Any, Union, Tuple
