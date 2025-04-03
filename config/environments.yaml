@@ -1,0 +1,15 @@
+development:
+  base_url: "http://127.0.0.1:8000"
+  model: "facebook/opt-125m"
+  timeout: 30
+  max_retries: 3
+
+staging:
+  base_url: "https://staging-api.example.com"
+  timeout: 45
+  max_retries: 3
+
+production:
+  base_url: "https://api.example.com"
+  timeout: 60
+  max_retries: 2

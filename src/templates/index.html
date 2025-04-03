@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NeuraTester - Next-Gen API Testing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="cyber-grid"></div>
+    <div class="ai-circuits"></div>
+    <div class="circuit-lines"></div>
+
+    <div class="container">
+        <header class="header">
+            <h1>OnePay TestForge</h1>
+            <p>Jio-Powered API Testing Suite</p>
+        </header>
+
+        <div class="input-container">
+            <h2>Enter your cURL command</h2>
+            <div class="textarea-container">
+                <textarea id="curlInput" placeholder="Paste your cURL command here..."></textarea>
+                <button id="copyButton" class="copy-btn" title="Copy to clipboard">
+                    <i class="fas fa-copy"></i>
+                </button>
+            </div>
+            <button class="analyze-btn" onclick="generateTests()">Generate Test Cases</button>
+        </div>
+
+        <!-- Loading section -->
+        <div id="loadingSection" style="display: none; text-align: center; margin: 2rem 0;">
+            <div class="loader"></div>
+            <p>Generating test cases...</p>
+        </div>
+
+        <div class="results-grid" id="resultsSection">
+            <!-- Test results will be displayed here -->
+        </div>
+    </div>
+
+    <script src="/static/scripts.js"></script>
+</body>
+
+</html>

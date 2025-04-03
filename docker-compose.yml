@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  localai:
+    image: localai/localai:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./models:/models
+      - ./config/localai.yaml:/config.yaml
+    environment:
+      - DEBUG=true

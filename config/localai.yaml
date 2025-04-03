@@ -1,0 +1,6 @@
+models:
+  - name: gpt4all-j
+    path: models/gpt4all-j.bin
+    type: gptj
+    context_size: 2048
+    threads: 4

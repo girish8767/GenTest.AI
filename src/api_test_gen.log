@@ -1,0 +1,360 @@
+2025-03-31 11:48:51,331 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 11:48:51,331 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:48:51,332 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 11:48:54,909 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 11:48:54,923 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 11:48:55,716 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:48:55] "GET / HTTP/1.1" 200 -
+2025-03-31 11:48:57,572 - __main__ - INFO - Received request to generate tests for curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 11:48:57,572 - __main__ - INFO - Calling test generator to generate test cases
+2025-03-31 11:48:57,572 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 11:48:57,573 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 11:48:57,573 - __main__ - INFO - Generated 3 test cases
+2025-03-31 11:48:57,573 - __main__ - INFO - Executing original curl command
+2025-03-31 11:48:57,845 - __main__ - INFO - Original curl command executed successfully
+2025-03-31 11:48:57,845 - __main__ - INFO - Original response parsed as JSON
+2025-03-31 11:48:57,845 - __main__ - INFO - Returning test cases and original response to client
+2025-03-31 11:48:57,846 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:48:57] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 11:49:49,531 - __main__ - INFO - Received request to generate tests for curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 11:49:49,531 - __main__ - INFO - Calling test generator to generate test cases
+2025-03-31 11:49:49,531 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 11:49:49,531 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 11:49:49,531 - __main__ - INFO - Generated 3 test cases
+2025-03-31 11:49:49,531 - __main__ - INFO - Executing original curl command
+2025-03-31 11:49:49,709 - __main__ - INFO - Original curl command executed successfully
+2025-03-31 11:49:49,709 - __main__ - INFO - Original response parsed as JSON
+2025-03-31 11:49:49,709 - __main__ - INFO - Returning test cases and original response to client
+2025-03-31 11:49:49,710 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:49:49] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 11:50:13,678 - __main__ - INFO - Received request to generate tests for curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 11:50:13,681 - __main__ - INFO - Calling test generator to generate test cases
+2025-03-31 11:50:13,682 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 11:50:13,682 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 11:50:13,681 - __main__ - INFO - Received request to generate tests for curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 11:50:13,683 - __main__ - INFO - Calling test generator to generate test cases
+2025-03-31 11:50:13,683 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 11:50:13,683 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 11:50:13,683 - __main__ - INFO - Generated 3 test cases
+2025-03-31 11:50:13,683 - __main__ - INFO - Executing original curl command
+2025-03-31 11:50:13,682 - __main__ - INFO - Generated 3 test cases
+2025-03-31 11:50:13,688 - __main__ - INFO - Executing original curl command
+2025-03-31 11:50:13,840 - __main__ - INFO - Original curl command executed successfully
+2025-03-31 11:50:13,841 - __main__ - INFO - Original response parsed as JSON
+2025-03-31 11:50:13,841 - __main__ - INFO - Original curl command executed successfully
+2025-03-31 11:50:13,841 - __main__ - INFO - Returning test cases and original response to client
+2025-03-31 11:50:13,841 - __main__ - INFO - Original response parsed as JSON
+2025-03-31 11:50:13,842 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:50:13] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 11:50:13,843 - __main__ - INFO - Returning test cases and original response to client
+2025-03-31 11:50:13,843 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:50:13] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 11:50:14,369 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:50:14] "GET / HTTP/1.1" 200 -
+2025-03-31 11:50:19,991 - __main__ - INFO - Received request to generate tests for curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 11:50:19,991 - __main__ - INFO - Calling test generator to generate test cases
+2025-03-31 11:50:19,991 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 11:50:19,992 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 11:50:19,992 - __main__ - INFO - Generated 3 test cases
+2025-03-31 11:50:19,992 - __main__ - INFO - Executing original curl command
+2025-03-31 11:50:20,143 - __main__ - INFO - Original curl command executed successfully
+2025-03-31 11:50:20,144 - __main__ - INFO - Original response parsed as JSON
+2025-03-31 11:50:20,144 - __main__ - INFO - Returning test cases and original response to client
+2025-03-31 11:50:20,145 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:50:20] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 11:54:20,669 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 11:54:20,669 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:54:20,671 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 11:54:24,181 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 11:54:24,194 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 11:54:35,970 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:54:35] "GET / HTTP/1.1" 200 -
+2025-03-31 11:54:36,663 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:54:36] "GET / HTTP/1.1" 200 -
+2025-03-31 11:54:41,245 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 11:54:41,245 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 11:54:41,634 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:54:41] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 11:57:27,119 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 11:57:27,119 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:57:27,120 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 11:57:30,969 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 11:57:30,981 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 11:57:31,025 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:57:31] "GET / HTTP/1.1" 200 -
+2025-03-31 11:57:34,563 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:57:34] "GET / HTTP/1.1" 200 -
+2025-03-31 11:58:46,771 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 11:58:46,771 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:58:46,771 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 11:58:50,153 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 11:58:50,164 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 11:59:00,886 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:59:00] "GET / HTTP/1.1" 200 -
+2025-03-31 11:59:06,613 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 11:59:06,615 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 11:59:07,051 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 11:59:07] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:04:26,318 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:04:26,318 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:04:26,318 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:04:29,632 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:04:29,650 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:04:30,045 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:04:30] "GET /?ide_webview_request_time=1743402870035 HTTP/1.1" 200 -
+2025-03-31 12:04:41,472 - __main__ - INFO - Generating test cases using Llama
+2025-03-31 12:04:41,472 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743400397423'  --header 'x-signature: BFB385621D1A75C13453E06E15F98117A5A493BD343FF9C6B2A3B87292311C41'
+2025-03-31 12:04:41,473 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:04:41,474 - __main__ - INFO - Generated 3 test cases
+2025-03-31 12:04:41,474 - __main__ - INFO - Executing test cases
+2025-03-31 12:04:41,474 - __main__ - INFO - Executing test case 1: Positive Test - Original Request
+2025-03-31 12:04:41,648 - __main__ - INFO - Test case 1 executed successfully
+2025-03-31 12:04:41,649 - __main__ - INFO - Executing test case 2: Negative Test - Invalid HTTP Method
+2025-03-31 12:04:41,753 - __main__ - INFO - Test case 2 executed successfully
+2025-03-31 12:04:41,753 - __main__ - INFO - Executing test case 3: Negative Test - Missing Required Header: x-merchant-id
+2025-03-31 12:04:41,897 - __main__ - INFO - Test case 3 executed successfully
+2025-03-31 12:04:41,897 - __main__ - INFO - Returning test results to client
+2025-03-31 12:04:41,899 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:04:41] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:05:39,501 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:05:39,501 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:05:39,501 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:05:42,957 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:05:42,971 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:05:43,018 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:05:43] "GET /?ide_webview_request_time=1743402940529 HTTP/1.1" 200 -
+2025-03-31 12:05:52,644 - __main__ - INFO - Generating test cases using Llama
+2025-03-31 12:05:52,644 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:05:52,645 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:05:52,645 - __main__ - INFO - Generated 3 test cases
+2025-03-31 12:05:52,645 - __main__ - INFO - Executing test cases
+2025-03-31 12:05:52,645 - __main__ - INFO - Executing test case 1: Positive Test - Original Request
+2025-03-31 12:05:52,824 - __main__ - INFO - Test case 1 executed successfully
+2025-03-31 12:05:52,824 - __main__ - INFO - Executing test case 2: Negative Test - Invalid HTTP Method
+2025-03-31 12:05:52,917 - __main__ - INFO - Test case 2 executed successfully
+2025-03-31 12:05:52,918 - __main__ - INFO - Executing test case 3: Negative Test - Missing Required Header: x-merchant-id
+2025-03-31 12:05:53,049 - __main__ - INFO - Test case 3 executed successfully
+2025-03-31 12:05:53,049 - __main__ - INFO - Returning test results to client
+2025-03-31 12:05:53,050 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:05:53] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:08:14,167 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 12:08:14,690 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:08:18,403 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:08:18,416 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:08:18,591 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:08:18] "GET /?ide_webview_request_time=1743403098581 HTTP/1.1" 200 -
+2025-03-31 12:08:56,778 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:08:56,778 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:08:56,779 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:09:00,309 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:09:00,320 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:09:00,370 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:09:00] "GET /?ide_webview_request_time=1743403138064 HTTP/1.1" 200 -
+2025-03-31 12:09:03,283 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:09:03,284 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:09:03,642 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:09:03] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:10:50,366 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:10:50,367 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:10:50,789 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:10:50] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:12:07,125 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:12:07,125 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:12:07,126 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:12:10,235 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:12:10,247 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:12:12,293 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:12:12] "GET /?ide_webview_request_time=1743403332284 HTTP/1.1" 200 -
+2025-03-31 12:12:18,648 - __main__ - INFO - Executing original curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 12:12:18,836 - __main__ - INFO - Original curl command executed successfully
+2025-03-31 12:12:18,837 - __main__ - INFO - Calling Llama to generate test cases
+2025-03-31 12:12:18,837 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:12:18,838 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:12:18,838 - __main__ - INFO - Generated 3 test cases
+2025-03-31 12:12:18,839 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:12:18] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:17:48,058 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 12:17:48,647 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:17:52,294 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:17:52,317 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:17:52,716 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:17:52] "GET /?ide_webview_request_time=1743403672694 HTTP/1.1" 200 -
+2025-03-31 12:18:23,275 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:18:23,275 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:18:23,276 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:18:26,526 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:18:26,542 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:18:26,588 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:18:26] "GET /?ide_webview_request_time=1743403704396 HTTP/1.1" 200 -
+2025-03-31 12:18:34,191 - __main__ - INFO - Executing original curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 12:18:36,854 - __main__ - INFO - Original curl command executed successfully
+2025-03-31 12:18:36,854 - __main__ - INFO - Calling Llama to generate test cases
+2025-03-31 12:18:36,854 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:18:36,855 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:18:36,855 - __main__ - INFO - Generated 3 test cases
+2025-03-31 12:18:37,249 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:18:37] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:19:56,784 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 12:19:57,370 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:20:01,198 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:20:01,209 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:20:02,452 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:20:02] "GET /?ide_webview_request_time=1743403802444 HTTP/1.1" 200 -
+2025-03-31 12:20:33,696 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 12:20:34,282 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:20:37,763 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:20:37,777 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:20:42,653 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:20:42,654 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:20:42,654 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:20:45,855 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:20:45,866 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:20:45,914 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:20:45] "GET /?ide_webview_request_time=1743403844082 HTTP/1.1" 200 -
+2025-03-31 12:20:53,357 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:20:53,357 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:20:53,709 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:20:53] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:21:28,094 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:21:28,094 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:21:28,094 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:21:31,781 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:21:31,796 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:21:31,846 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:21:31] "GET /?ide_webview_request_time=1743403889275 HTTP/1.1" 200 -
+2025-03-31 12:21:38,129 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:21:38] "[31m[1mPOST /generate-tests HTTP/1.1[0m" 400 -
+2025-03-31 12:22:18,234 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:22:18,234 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:22:18,234 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:22:21,566 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:22:21,578 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:22:21,626 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:22:21] "GET /?ide_webview_request_time=1743403939374 HTTP/1.1" 200 -
+2025-03-31 12:22:30,534 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:22:30,534 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:22:30,978 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:22:30] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:25:50,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:25:50,702 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:25:50,703 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:25:54,000 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:25:54,023 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:25:54,067 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:54] "GET /?ide_webview_request_time=1743404151609 HTTP/1.1" 200 -
+2025-03-31 12:25:54,102 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:25:54] "GET /?ide_webview_request_time=1743404154098 HTTP/1.1" 200 -
+2025-03-31 12:26:01,414 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:26:01,415 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:26:01,788 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:26:01] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:26:25,596 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:26:25] "GET / HTTP/1.1" 200 -
+2025-03-31 12:26:38,518 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:26:38,519 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:26:38,898 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:26:38] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:26:51,146 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:26:51,147 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:26:51,537 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:26:51] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:27:07,912 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:27:07,913 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:27:08,309 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:27:08] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:27:08,470 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:27:08] "GET / HTTP/1.1" 200 -
+2025-03-31 12:27:09,220 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:27:09] "GET / HTTP/1.1" 200 -
+2025-03-31 12:27:15,210 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:27:15,211 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:27:15,589 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:27:15] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:27:50,201 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:27:50] "GET / HTTP/1.1" 200 -
+2025-03-31 12:27:53,733 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:27:53,733 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:27:54,125 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:27:54] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:27:58,610 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 12:27:59,262 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:28:02,871 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:28:02,884 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:29:53,829 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/utils/test_generator.py', reloading
+2025-03-31 12:29:54,443 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:29:58,701 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:29:58,714 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:30:06,083 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 12:30:06,508 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:30:10,333 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:30:10,345 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:31:07,234 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:31:07,234 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:31:07,235 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:31:10,824 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:31:10,836 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:31:13,562 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:31:13] "GET / HTTP/1.1" 200 -
+2025-03-31 12:31:18,869 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:31:18,870 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:31:19,277 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:31:19] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:35:46,293 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:35:46,293 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:35:46,294 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:35:49,653 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:35:49,665 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:35:54,635 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:35:54] "GET / HTTP/1.1" 200 -
+2025-03-31 12:36:01,703 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:36:01,705 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:36:01,707 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:36:01] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 12:38:38,088 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:38:38] "[31m[1mGET /execute-curl HTTP/1.1[0m" 405 -
+2025-03-31 12:44:03,631 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 12:44:04,186 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:44:07,846 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:44:07,858 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:45:13,156 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 12:45:13,156 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 12:45:13,156 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 12:45:16,551 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 12:45:16,563 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 12:45:16,603 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:45:16] "GET / HTTP/1.1" 200 -
+2025-03-31 12:45:18,519 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:45:18] "GET / HTTP/1.1" 200 -
+2025-03-31 12:45:26,810 - utils.test_generator - INFO - Parsing curl command: curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL'  --header 'x-merchant-id: DONT_MODIFY_GTEST'  --header 'x-business-flow: DONT_MODIFY_GTEST'  --header 'x-transaction-time: 1743402946414'  --header 'x-signature: 4E52C70B3EADD7167205AAFD1BC06DD5D931A804A0241266015968059285CBDE'
+2025-03-31 12:45:26,811 - utils.test_generator - INFO - Found URL: https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL
+2025-03-31 12:45:27,194 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 12:45:27] "POST /generate-tests HTTP/1.1" 200 -
+2025-03-31 13:11:45,025 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 13:11:45,026 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 13:11:45,026 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 13:11:48,250 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 13:11:48,264 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 13:11:48,310 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:11:48] "GET /?ide_webview_request_time=1743406907871 HTTP/1.1" 200 -
+2025-03-31 13:12:11,379 - app - INFO - Received request to /execute-curl endpoint
+2025-03-31 13:12:11,380 - app - INFO - Request data: {'curl_command': "curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL' \\\n--header 'x-merchant-id: DONT_MODIFY_GTEST' \\\n--header 'x-business-flow: DONT_MODIFY_GTEST' \\\n--header 'x-transaction-time: 1743406925876' \\\n--header 'x-signature: C6CE47F1DEE44C68D6F3623C2BDABCFDCC19ADCFE6C747363671EFFAB1D0C50C'"}
+2025-03-31 13:12:11,380 - app - INFO - Executing curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 13:12:11,388 - app - INFO - Waiting for curl command to complete...
+2025-03-31 13:12:11,561 - app - INFO - Command completed with return code: 0
+2025-03-31 13:12:11,562 - app - WARNING - Command stderr:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0   
+2025-03-31 13:12:11,562 - app - INFO - Command stdout length: 1382
+2025-03-31 13:12:11,562 - app - INFO - Successfully parsed JSON response
+2025-03-31 13:12:11,563 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:12:11] "POST /execute-curl HTTP/1.1" 200 -
+2025-03-31 13:14:29,267 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/app.py', reloading
+2025-03-31 13:14:29,704 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 13:14:33,760 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 13:14:33,783 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 13:14:34,796 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:14:34] "GET /?ide_webview_request_time=1743407074786 HTTP/1.1" 200 -
+2025-03-31 13:14:39,050 - werkzeug - INFO -  * Detected change in '/Users/girish.shimpi/api_test_gen/src/utils/test_generator.py', reloading
+2025-03-31 13:14:39,392 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 13:14:43,125 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 13:14:43,136 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 13:14:43,321 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:14:43] "GET /?ide_webview_request_time=1743407083312 HTTP/1.1" 200 -
+2025-03-31 13:15:15,246 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 13:15:15,246 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 13:15:15,246 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 13:15:18,519 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 13:15:18,535 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 13:15:18,582 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:15:18] "GET /?ide_webview_request_time=1743407116396 HTTP/1.1" 200 -
+2025-03-31 13:15:26,441 - app - INFO - Received request to /execute-curl endpoint
+2025-03-31 13:15:26,441 - app - INFO - Request data: {'curl_command': "curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL' \\\n--header 'x-merchant-id: DONT_MODIFY_GTEST' \\\n--header 'x-business-flow: DONT_MODIFY_GTEST' \\\n--header 'x-transaction-time: 1743406925876' \\\n--header 'x-signature: C6CE47F1DEE44C68D6F3623C2BDABCFDCC19ADCFE6C747363671EFFAB1D0C50C'"}
+2025-03-31 13:15:26,441 - app - INFO - Executing curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 13:15:26,447 - app - INFO - Waiting for curl command to complete...
+2025-03-31 13:15:26,699 - app - INFO - Command completed with return code: 0
+2025-03-31 13:15:26,699 - app - WARNING - Command stderr:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0   
+2025-03-31 13:15:26,699 - app - INFO - Command stdout length: 1382
+2025-03-31 13:15:26,699 - app - INFO - Successfully parsed JSON response
+2025-03-31 13:15:26,700 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:15:26] "POST /execute-curl HTTP/1.1" 200 -
+2025-03-31 13:15:33,479 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:15:33] "GET /?ide_webview_request_time=1743407133474 HTTP/1.1" 200 -
+2025-03-31 13:15:33,787 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:15:33] "GET /?ide_webview_request_time=1743407133781 HTTP/1.1" 200 -
+2025-03-31 13:15:35,549 - app - INFO - Received request to /execute-curl endpoint
+2025-03-31 13:15:35,550 - app - INFO - Request data: {'curl_command': "curl --location 'https://rtss-sit.jioconnect.com/jop/api/v1/payment-options?paymentMethod=ALL' \\\n--header 'x-merchant-id: DONT_MODIFY_GTEST' \\\n--header 'x-business-flow: DONT_MODIFY_GTEST' \\\n--header 'x-transaction-time: 1743406925876' \\\n--header 'x-signature: C6CE47F1DEE44C68D6F3623C2BDABCFDCC19ADCFE6C747363671EFFAB1D0C50C'"}
+2025-03-31 13:15:35,550 - app - INFO - Executing curl command: curl --location 'https://rtss-sit.jioconnect.com/j...
+2025-03-31 13:15:35,558 - app - INFO - Waiting for curl command to complete...
+2025-03-31 13:15:35,714 - app - INFO - Command completed with return code: 0
+2025-03-31 13:15:35,714 - app - WARNING - Command stderr:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0   
+2025-03-31 13:15:35,714 - app - INFO - Command stdout length: 1382
+2025-03-31 13:15:35,714 - app - INFO - Successfully parsed JSON response
+2025-03-31 13:15:35,715 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:15:35] "POST /execute-curl HTTP/1.1" 200 -
+2025-03-31 13:17:07,675 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 13:17:07,675 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 13:17:07,676 - werkzeug - INFO -  * Restarting with stat
+2025-03-31 13:17:11,060 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 13:17:11,077 - werkzeug - INFO -  * Debugger PIN: 792-228-248
+2025-03-31 13:17:11,125 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:17:11] "GET /?ide_webview_request_time=1743407228512 HTTP/1.1" 200 -
+2025-03-31 13:17:17,694 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 13:17:17] "POST /execute-curl HTTP/1.1" 200 -
